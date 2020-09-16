@@ -27,4 +27,9 @@
         // console.info("form submitted")
     })
 
+    document.getElementById("pounds").addEventListener("focus", function(ev){
+        ev.target.value = ""
+    })
+
+
 })();
